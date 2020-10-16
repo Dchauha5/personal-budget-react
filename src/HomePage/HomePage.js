@@ -2,7 +2,7 @@ import React from 'react';
 
 function HomePage() {
   return (
-    <main className="container center" is="main">
+    <main className="container center" id="main">
 
     <div className="page-area">
 
