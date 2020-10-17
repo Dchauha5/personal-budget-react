@@ -22,13 +22,11 @@ function App() {
       <div className = "mainContainer"> 
       <Switch>
         <Route path="/about">
-
-          <AboutPage/>
+              <AboutPage/>
         </Route>
 
         <Route path="/login">
-
-          <LoginPage/>
+            <LoginPage/>
         </Route>
         
         <Route path="/">
@@ -38,9 +36,7 @@ function App() {
 
       </Switch>
       </div>
-
-      <HomePage/>
-      <Footer/>
+    <Footer/>
 
     </Router>
   );
